@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+.env
+
+# Artefactos generados
+models/*.pkl
+data/processed/*
+!data/processed/.gitkeep
+
+.DS_Store
